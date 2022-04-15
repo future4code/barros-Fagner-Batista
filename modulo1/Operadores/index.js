@@ -56,12 +56,15 @@ console.log("Desde que você nasceu já se passaram " , idadeHoras , "dias")//Im
 let primeiroNumero = prompt("Insira o primeiro numero")
 let segundoNumero = prompt("Insira o segundo numero")
 
-let op1 = primeiroNumero > segundoNumero
-let op2 = primeiroNumero == segundoNumero
-let op3 = primeiroNumero % segundoNumero 
-let op4 = segundoNumero % primeiroNumero
+let pergunta1 = primeiroNumero > segundoNumero
+let pergunta2 = primeiroNumero == segundoNumero
+let pergunta3 = primeiroNumero % segundoNumero ==0
+let pergunta4 = segundoNumero % primeiroNumero ==0
 
-console.log ("O primeiro numero é maior que segundo? " , op1)
-console.log ("O primeiro numero é igual ao segundo?", op2)
-console.log (op3)
-console.log (op4)
+console.log("Este foi o primeiro número" , primeiroNumero)
+console.log("Este foi o segundo número", segundoNumero)
+
+console.log ("O primeiro numero é maior que segundo? " , pergunta1)
+console.log ("O primeiro numero é igual ao segundo?", pergunta2)
+console.log ("O primeiro numero é divisível pelo segundo?" , pergunta3)
+console.log ("O segundo numero é divisível pelo segundo?" ,pergunta4)
