@@ -53,18 +53,18 @@ console.log("Desde que você nasceu já se passaram " , idadeMeses , "meses")//I
 console.log("Desde que você nasceu já se passaram " , idadeDias , "dias")//Imprime a quantidade de dias que usuário tem 
 console.log("Desde que você nasceu já se passaram " , idadeHoras , "dias")//Imprime a quantidade horas que usuário tem*/
 
-let primeiroNumero = prompt("Insira o primeiro numero")
-let segundoNumero = prompt("Insira o segundo numero")
+let primeiroNumero = prompt("Insira o primeiro numero")//pede que o usuário insira o primeiro número
+let segundoNumero = prompt("Insira o segundo numero")//pede que o usuário insira o segundo número 
 
-let pergunta1 = primeiroNumero > segundoNumero
-let pergunta2 = primeiroNumero == segundoNumero
-let pergunta3 = primeiroNumero % segundoNumero ==0
-let pergunta4 = segundoNumero % primeiroNumero ==0
+let pergunta1 = primeiroNumero > segundoNumero//Verifica se o primeiro número é maior que o segundo número
+let pergunta2 = primeiroNumero == segundoNumero//Verifica se o primeiro número é igual a ao segundo número
+let pergunta3 = primeiroNumero % segundoNumero ==0//Verifica se o primeiro número é divisivel pelo segundo número
+let pergunta4 = segundoNumero % primeiroNumero ==0//Verifica se o segundo número é divisível pelo primeiro número
 
-console.log("Este foi o primeiro número" , primeiroNumero)
-console.log("Este foi o segundo número", segundoNumero)
+console.log("Este foi o primeiro número" , primeiroNumero)//Imprime o primeiro número digitado
+console.log("Este foi o segundo número", segundoNumero)//Imprime o segundo número digitado 
 
-console.log ("O primeiro numero é maior que segundo? " , pergunta1)
-console.log ("O primeiro numero é igual ao segundo?", pergunta2)
-console.log ("O primeiro numero é divisível pelo segundo?" , pergunta3)
-console.log ("O segundo numero é divisível pelo segundo?" ,pergunta4)
+console.log ("O primeiro numero é maior que segundo? " , pergunta1)//Imprime se o primeiro número é maior que o segundo
+console.log ("O primeiro numero é igual ao segundo?", pergunta2)//Imprime se o primeiro número é igual ao segundo número
+console.log ("O primeiro numero é divisível pelo segundo?" , pergunta3)//Imprime se o primeiro número é divisível pelo segundo número
+console.log ("O segundo numero é divisível pelo segundo?" ,pergunta4)//Imprime se o segundo número é divisível pelo primeiro número
