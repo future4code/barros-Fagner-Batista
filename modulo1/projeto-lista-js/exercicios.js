@@ -20,30 +20,30 @@ function imprimeMensagem() {
 function calculaAreaRetangulo() {
   // implemente sua lógica aqui
 
-let altura = Number(prompt("Digite a altura"))
-let largura = Number(prompt("Digite a largura"))
+let altura = Number(prompt("Digite a altura"))//pedi usuário que digite a altura do retângulo 
+let largura = Number(prompt("Digite a largura"))//pedi ao usuário que largura do retângulo 
 
 
 
- console.log(altura * largura)
+ console.log(altura * largura)//Imprime a area do retângulo 
 }
 
 // EXERCÍCIO 02
 function imprimeIdade() {
   // implemente sua lógica aqui
-let anoAtual = Number(prompt("Qual o ano atual?"))
-let anoNasc = Number(prompt ("Qual o ano que você nasceu?"))
+let anoAtual = Number(prompt("Qual o ano atual?"))//Pedi ao usuário digite o ano atual 
+let anoNasc = Number(prompt ("Qual o ano que você nasceu?"))//Pedi ao usuário digite o ano do seu nascimento 
 
-console.log(anoAtual - anoNasc)
+console.log(anoAtual - anoNasc)//Imprime a idade a idade do usuário 
 }
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
 
- imc = peso /(altura * altura) 
+ imc = peso /(altura * altura) //calcula o IMC 
 
-return imc
+return imc//Retorna i IMC
 
 }
 
@@ -52,13 +52,13 @@ function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   //"Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
 
-const nome = prompt("Qual o seu nome?")
-const idade = prompt("Quantos anos você tem?")
-const email = prompt("Qual o seu mail?")
+const nome = prompt("Qual o seu nome?")//Pegunta qual o nome do usuário
+const idade = prompt("Quantos anos você tem?")//Pegunta o a idade do usuário 
+const email = prompt("Qual o seu mail?")//Pergunta o e-mail do usuário 
 
 
 
-console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
+console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)//Imrprime as informações do usuário 
 
 }
 
@@ -67,14 +67,14 @@ function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
 
 
-  const cor1 = prompt("Qual sua 1ªcor favorita")
-  const cor2 = prompt("Qual sua 2ª cor favorita")
-  const cor3 = prompt("Qual sua 2ª cor favorita")
+  const cor1 = prompt("Qual sua 1ªcor favorita")//Pergunta a primeira cor do usuário 
+  const cor2 = prompt("Qual sua 2ª cor favorita")//Pergunta a segunda cor do usário 
+  const cor3 = prompt("Qual sua 2ª cor favorita")//Pergunta a teceira cor do usário 
 
-   let array = [cor1, cor2, cor3]
+   let array = [cor1, cor2, cor3]//Armazena as cores digitas pelo usuário 
  
 
-  console.log([cor1, cor2, cor3])
+  console.log([cor1, cor2, cor3])//Imprime as cores armazenadas pelo usuário 
 
 }
 
@@ -82,16 +82,16 @@ function imprimeTresCoresFavoritas() {
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
 
-return stringMaiuscula = string.toUpperCase()
+return stringMaiuscula = string.toUpperCase()//Retorna a string maíuscula 
 
 }
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
 
-  quant = custo/valorIngresso
+  quant = custo/valorIngresso//Calcula a quantidade ingressos necessárias para o espetáculo 
 
-  return quant
+  return quant//Imprime a quantidade de ingressos para o espetáculo
 
 }
 // EXERCÍCIO 08
@@ -100,7 +100,7 @@ function checaStringsMesmoTamanho(string1, string2) {
 
  
 
-   return string1.length == string2.length
+   return string1.length == string2.length//Verifica se string é do mesmo tamanho 
 
 }
 
@@ -109,14 +109,15 @@ function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
 
 
-return array[0]
+return array[0]//Retorna o primeiro elemento do array 
 
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
-return array[array.length-1]
+
+return array[array.length-1]//Retorna o último elemento do array 
 
 }
 
@@ -130,19 +131,21 @@ function trocaPrimeiroEUltimo(array) {
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
 
-  string1 = "oi"
-  string2 = "oi"
+  string1 = "oi"//atribui o texto a string1
+  string2 = "oi"//atribui o texto a string2
 
  
 
 
-  return string1 === string2
+  return string1 === string2//Retorna um boleano quanto a string1 e string2 
 
 }
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
+
+
 
 }
 
