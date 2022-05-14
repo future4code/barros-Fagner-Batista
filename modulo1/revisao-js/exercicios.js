@@ -26,15 +26,29 @@ function retornaArrayOrdenado(array) {
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
 
-    let  par = array.filter(function(item,) {
+    let  par = array.filter(function(item) {
         return item % 2 === 0
-        }); 
+        })
+    return par
 }
 
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+    let par = array.filter(function(item){
+        item % 2 == 0 
+          return par
+    }) 
+  
+    
+    
+    let dobro = array.map(function(elevado){
+        return elevado = math.pow(par,2)
+    })
+    
+  
+    return dobro 
+
    
 
 }
@@ -63,7 +77,7 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-   let numerosPares = [1,2,3,4,5,6] 
+  // let numerosPares = [1,2,3,4,5,6] 
    for(let i = 0; i < n; i ++){
        if(i % 2 == 0){
            numerosPares.push(i)
@@ -74,6 +88,22 @@ function retornaNPrimeirosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
+
+    if(ladoA == ladoB && ladoA == ladoC && ladoB ==ladoC){
+       
+         return  "Equilátero" 
+       
+     }
+     else if(ladoA != ladoB && ladoA != ladoC && ladoB != ladoC){
+       
+          return "Escaleno"
+     }
+     else if(ladoA == ladoB || ladoA == ladoC ||ladoB == ladoC){
+        
+          return "Isósceles"
+        
+       
+     }
 
 }
 
