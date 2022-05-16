@@ -35,22 +35,16 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
-    let par = array.filter(function(item){
-        item % 2 == 0 
-          return par
-    }) 
-  
-    
-    
-    let dobro = array.map(function(elevado){
-        return elevado = math.pow(par,2)
-    })
-    
-  
-    return dobro 
+    let pares = array.filter(function(item){
+        return  item % 2 == 0
+      }) 
+  let i
+      let quadrados = pares.map(function(par){
+        return   Math.pow(par, 2)
+      }) 
 
-   
 
+      return quadrados
 }
 
 // EXERCÍCIO 06
@@ -78,13 +72,16 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
   // let numerosPares = [1,2,3,4,5,6] 
-   for(let i = 0; i < n; i ++){
-       if(i % 2 == 0){
-           numerosPares.push(i)
-       }
+  
+  let pares = n.filter(function(item){
+    return item % 2 == 0
+
+  })
+
+  return pares
+  
    }
-   return numerosPares
-}
+  
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
@@ -109,12 +106,49 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
+    let n = [2,3,4,5,6,7,8,9,10]
+
+    let menorNumero = Math.min.apply(Math,n)
+    
+    n.sort(function(a,b){
+    if(a > b){
+        return 1
+    }
+    
+    if (a < b){
+        return -1
+    }
+    
+    return 0
+    })
+    
+    let segundoMenor = n[1]
+    let maiorNumero = Math.max.apply(Math, n)
+    let segundoMaior = []
+    
+    for(let i = 0; i < n.length; i++){
+    if(n[i] > segundoMaior && n[i] !=maiorNumero){
+        segundoMaior = n[i]
+        }
+    }
+
   
+return segundoMaior + "" + segundoMenor
+   
 }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+    filme = {
+        nome: "Cassino Royale",
+        ano: 2006, 
+        Diretor:  "Martin Campbell",
+        atores: ["Daniel Craig ", "Eva Green", "Mad Mikelsen", "Jud Dench"]
+
+          } 
+       console.log(`Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.Diretor}, e estrelado por ${filme.atores}`  )
+
+       return filme()
 }
 
 // EXERCÍCIO 12
@@ -130,6 +164,8 @@ function retornaPessoasAutorizadas(pessoas) {
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
   
+
+    
 }
 
 // EXERCÍCIO 14
