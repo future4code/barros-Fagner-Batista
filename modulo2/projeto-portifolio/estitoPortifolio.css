@@ -1,0 +1,34 @@
+#corpo{
+
+   background-image: url("mao.jpg");
+}
+
+#titulo{
+    text-align:center;
+    font:5em "Times New Romam";
+  
+    color: white;
+}
+#nome{
+    color: whitesmoke
+}
+
+#info{
+    color: white;
+   font: 1.5em "Times New Romam";
+   text-align: justify;
+}
+
+#infoCursos{
+    color: brown;
+}
+
+#tabela{
+    text-align: justify;
+    color: white;
+    font: 1em "Times New Romam"
+}
+
+#endereço{
+    color: azure;
+}
