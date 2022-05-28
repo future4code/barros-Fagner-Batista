@@ -3,6 +3,11 @@
    background-image: url("mao.jpg");
 }
 
+#corpoCursos{
+
+    background-image: url("robo.jpg");
+ }
+
 #titulo{
     text-align:center;
     font:5em "Times New Romam";
@@ -10,7 +15,7 @@
     color: white;
 }
 #nome{
-    color: whitesmoke
+    color: rgb(140, 15, 15)
 }
 
 #info{
@@ -31,4 +36,8 @@
 
 #endereço{
     color: azure;
+}
+
+#trabalhos{
+    color: aliceblue;
 }
