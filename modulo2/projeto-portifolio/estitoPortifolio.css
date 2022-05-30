@@ -28,7 +28,8 @@
     color: brown;
 }
 
-#tabela{
+#tabela th, td{
+    border: 4px solid salmon;
     text-align: justify;
     color: white;
     font: 1em "Times New Romam"
