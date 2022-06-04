@@ -1,0 +1,27 @@
+h1{
+    background-color: coral;
+    color: black;
+
+}
+
+button{
+    display: grid;
+    align-items: center;
+    justify-items: start;
+}
+
+main{
+    display:flex;
+   grid-template-columns: none;
+   width: 4%;
+   justify-content: center;
+   margin: 5px 5px 10px 5px;
+word-wrap: normal;
+}
+
+#imagem{
+    display: grid;
+    grid-template-columns: 10px;
+    grid-template-rows: 10px;
+
+}
