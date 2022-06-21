@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+h3{
+  height: 25px;
+  color: tomato;
+  font-family:cursive;
+  font-size: 75px;
+}
+
+img{
+width: 60%;
+height: 60%;
+
+}
+
+button{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  width: 170px;
+  height: 50px;
+  background-color: antiquewhite;
+}
+
