@@ -12,14 +12,18 @@ function MeuFormulario(){
  return (
 
   <div className='principal'>
-    <img src={Logo}/>
-      <div className='item1'>1</div>
-      <div className='item2'>2</div>
+   <img src={Logo}/>
+      <div className='item1'></div>
+      <div className='item2'></div>
+
+      <div className='formularios'>
           <Formulario1/>
-           <Formulario2/>
-    
-      <div className='item3'>Fagner Fontes Batista todos os direitos reserdos copyright</div>
- 
+           <Formulario2/>     
+      </div>
+        
+        
+      <div className='rodape'> Fagner Fontes Batista, todos os direitos reservados  Copyright</div>
+  
     
   </div>
 

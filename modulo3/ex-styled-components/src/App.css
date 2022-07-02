@@ -1,63 +1,72 @@
 .principal{
-    display: grid;
-    grid-template-columns: auto auto auto  ;
-   grid-template-rows: auto auto ;
+   position: relative;
+   height: 100%;
+  
+   
    
 }
 
 
 .item1{
-    width: 130px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    color: orangered;
-    background-color: orangered;
+position: fixed;
+background-color: orange;
+width: 100px;
+height: 600px;
+}
+
+
+
+.item2{
+    position: fixed;
+    background-color: orange;
+   
+    width: 100px;
     height: 600px;
-}
+    right: 0;
 
-.item1{
-    grid-column: 1 / span 2;
    
 }
 
-.item2{
-   margin-top: 30px;
-   margin-bottom: 0px;
-   padding-left: 0px;
-   color: orangered;
-    background-color: orangered;
-   
+
+.rodape{
+
+position:absolute;
+text-align: center;
+padding-bottom: 0;
+bottom: 0px;
+top: 595px;
+ width: 100%;
+ height: 20px;
+background-color: gray;
+font-family: 'Times New Roman', Times, serif;
+
+         
+    
 }
 
-.item2{
-    grid-column: ;
-}
+.formularios{
+display: flex;
+margin-top: 525px;
+margin-right: auto;
+margin-left: 240px;
+margin-bottom: 0px;
+padding: 0px;
 
-.item3{
-    margin-top: 0px;
-    text-align: center;
-    background-color: grey;
 
-}
-
-.item3{
-    grid-column: 1/4;
 }
 
 .input{
- 
-    width:350px;
+width: 500px;
 }
 
 .remetente{
-    margin-left: 300px;
+    
 }
 
 .principal img{
-  display:block;
-margin: 0px auto;
-text-align: center;
-   
-   
-    width:60px;
+
+width: 42px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
