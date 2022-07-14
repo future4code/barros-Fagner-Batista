@@ -14,28 +14,32 @@ function App() {
     switch (pagina) {
       case 1:
         proximo = <Pagina1></Pagina1>
-        break;
+        
       case 2:
         proximo = <Pagina2></Pagina2>
-        break;
+        
       case 3:
         proximo = <Pagina3></Pagina3>
-        break
+        
       case 4:
         default:  
            <Final></Final>
     }
 
       function proximaPagina(){
-        let  soma = soma + 1
-         setPagina(soma);
+        let soma = 1
+        soma = soma + 1
+         setPagina(pagina);
       }
-
+   
 
   return (
     <div className="App">
-     {proximo}
+     {proximo}  
+     
+     
       <button onClick={proximaPagina}>Próxima Pagina</button>
+     
     </div>
   );
 }
