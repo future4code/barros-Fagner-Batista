@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Banco/RevisaoReactBasico/Componentes/Header/Header";
+import Card from "./Banco/RevisaoReactBasico/Componentes/Card/Card";
+import { Homepage } from "./Banco/RevisaoReactBasico/Componentes/HomePage/HomePage";
+import Detailspage from "./Banco/RevisaoReactBasico/Componentes/Detailspage/Detailspage";
+import { GlobalStyle } from "./GlobalStyle";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+function App(){
+
+    return(
+        <div className="Corpo">
+         
+         <div></div>
+      <GlobalStyle/>
+        <Homepage/>
+
+
+        </div>
+    )
 }
 
-export default App;
+export default App
