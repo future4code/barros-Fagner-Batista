@@ -1,0 +1,7 @@
+### Endpoint de teste
+GET http://localhost:3003/ping
+
+### Exercício 1 - Create user
+POST http://localhost:3003//users/profile/:id
+Content-Type: application/json
+
