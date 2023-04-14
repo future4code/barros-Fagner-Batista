@@ -5,8 +5,11 @@ export type TUser = {
 }
 
 export class User {
+    static toUserModel(user: any): any {
+        throw new Error("Method not implemented.")
+    }
     constructor(
-        private id: string,
+        protected id: string,
         private email: string,
         private password: string
     ) {
